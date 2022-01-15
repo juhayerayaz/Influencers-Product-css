@@ -117,6 +117,18 @@ hr {
 .collection-info {
   margin-left: 13px;
 }
+.collection-info h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.collection-info h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.collection-info p {
+  font-size: 14px;
+  color: #787885;
+}
 .fa-star.filled {
   color: #ffc014;
 }
