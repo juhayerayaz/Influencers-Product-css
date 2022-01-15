@@ -40,6 +40,9 @@ header > nav > a:hover {
 }
 .impression-text p {
   margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  text-overflow: ellipsis;
 }
 .btn {
   background-color: #9970f0;
