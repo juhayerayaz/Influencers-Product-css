@@ -1,0 +1,117 @@
+/* mobile  */
+@media only screen and (max-width: 688px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* header part start  */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .menu {
+    word-spacing: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  /* header part end */
+  /* first impression start  */
+  .first-impression {
+    flex-direction: column;
+  }
+  .logos img {
+    width: 32px;
+  }
+  hr {
+    display: none;
+  }
+  .impression-img img {
+    margin-top: 20px;
+    width: 220px;
+    background-image: none;
+  }
+  .impression-img:hover {
+    transform: scale(0.9);
+    transition: 1s ease;
+  }
+  /* first impression end  */
+  /* collection container start  */
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  #popular {
+    margin-top: 75px;
+  }
+  .collections-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .collection:hover {
+    transform: scale(0.9);
+    transition: 0.6s ease;
+  }
+  #see-more:hover {
+    color: #7c40ff;
+    transform: scale(1);
+    transition: 0.4s ease;
+  }
+  .slides {
+    width: 305px;
+    height: 210px;
+  }
+  .slide {
+    width: 305px;
+    height: 210px;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  header {
+    margin: 30px 20px;
+  }
+  .impression-img img {
+    width: 320px;
+    background-image: none;
+  }
+  .first-impression {
+    margin: 0 20px;
+  }
+  .menu {
+    word-spacing: 0;
+  }
+  hr {
+    margin-top: 20px;
+  }
+  .logos {
+    align-content: center;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .collections-container {
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #see-more:hover {
+    color: #7c40ff;
+    transform: scale(1);
+    transition: 0.4s ease;
+  }
+  .slides {
+    width: 405px;
+    height: 310px;
+  }
+  .slide {
+    width: 405px;
+    height: 310px;
+  }
+}
